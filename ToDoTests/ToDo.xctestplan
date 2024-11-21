@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "0DFADBB8-F7F1-4DDE-BCE1-173679C2A42A",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "ShouldDownloadDataFromNetwork",
+        "value" : "0"
+      }
+    ],
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ToDo.xcodeproj",
+        "identifier" : "8D7D203B2CECF0A600361050",
+        "name" : "ToDoTests"
+      }
+    }
+  ],
+  "version" : 1
+}
