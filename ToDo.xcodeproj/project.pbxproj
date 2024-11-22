@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -22,14 +22,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8DB3FC8D2CEE22DF004A875E /* Exceptions for "ToDoTests" folder in "ToDo" target */ = {
+		8DB3FC8D2CEE22DF004A875E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ToDo.xctestplan,
 			);
 			target = 8DC7A86B2CE9090200667D3B /* ToDo */;
 		};
-		8DB3FC8E2CEE22DF004A875E /* Exceptions for "ToDoTests" folder in "ToDoTests" target */ = {
+		8DB3FC8E2CEE22DF004A875E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ToDo.xctestplan,
@@ -39,20 +39,8 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8D7D203D2CECF0A600361050 /* ToDoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8DB3FC8D2CEE22DF004A875E /* Exceptions for "ToDoTests" folder in "ToDo" target */,
-				8DB3FC8E2CEE22DF004A875E /* Exceptions for "ToDoTests" folder in "ToDoTests" target */,
-			);
-			path = ToDoTests;
-			sourceTree = "<group>";
-		};
-		8DC7A86E2CE9090200667D3B /* ToDo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo;
-			sourceTree = "<group>";
-		};
+		8D7D203D2CECF0A600361050 /* ToDoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8DB3FC8D2CEE22DF004A875E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 8DB3FC8E2CEE22DF004A875E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ToDoTests; sourceTree = "<group>"; };
+		8DC7A86E2CE9090200667D3B /* ToDo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ToDo; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +147,7 @@
 				};
 			};
 			buildConfigurationList = 8DC7A8672CE9090200667D3B /* Build configuration list for PBXProject "ToDo" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -168,7 +157,6 @@
 			);
 			mainGroup = 8DC7A8632CE9090200667D3B;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 8DC7A86D2CE9090200667D3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
